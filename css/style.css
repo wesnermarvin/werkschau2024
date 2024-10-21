@@ -1,0 +1,169 @@
+@charset "utf-8";
+
+/*1960 width */
+
+html, body {
+  max-width: 100%;
+  scroll-behavior: smooth;
+  background-color: rgb(255, 255, 255);
+  overflox-x: hidden;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+nav {
+  margin-left: 5em;
+  margin-right: 5em;
+  margin-top: 5em;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+}
+
+nav ul li {
+  width: 25%;
+  padding: 0 0 2em;
+  align-self: flex-start;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.7em;
+}
+
+.text {
+	max-width: 50%;
+	font-size: 1.3em;
+	text-wrap: balance;
+}
+
+.whitespace {
+	margin: 3em;
+}
+
+header {
+  margin-left: 5em;
+}
+
+h1 {
+  font-size: 10em;
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 5em;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+header h2 {
+  margin-top: -0.8em;
+  margin-left: 2.5em;
+}
+
+.header_werkschau {
+  display: flex;
+}
+
+.logo_werkschau {
+  width: 50px;
+  margin-right: 3em;
+  padding-top: 4.7em;
+}
+
+.subheadline-grid-right {
+	float:right;
+}
+
+
+.dateNumber {
+	font-size: 14em;
+  float: right;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto;
+	gap: 1rem;
+}
+
+.grid-container-four {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	gap: 1em;
+	margin-left: 5em;
+	margin-right: 5em;
+}
+
+.grid-open-space-left {
+	margin-left: 5em;
+}
+
+.grid-open-space-right {
+	margin-right: 5em;
+}
+
+.link-container {
+	margin-top: 2.5em;
+}
+
+.link {
+	color: black;
+	text-decoration: none;
+	font-size: 0.9em;
+	margin-right: 5em;
+}
+
+.grid-img {
+	justify-self: center;
+}
+
+
+.impressum {
+	position: absolute;
+	margin-top: 10em;
+	margin-left: 16em;
+}
+
+.img-container {
+	object-fit: cover;
+	width: 100%;
+	max-width: 100%
+}
+
+.impressum-text-column {
+  column-count: 2;
+
+}
+
+.impressum-data {
+  margin-left: 5em;
+  position: fixed;
+}
+
+.impressum-text-container {
+  width: 66%;
+  float: right;
+  margin-right: 5em;
+  margin-left: 5em;
+  margin-bottom: 5em;
+}
+
+.impressum-text-column-sub {
+  margin-bottom: 0.5em;
+}
+
+.footer-impressum {
+  margin: 5em;
+}
